@@ -45,3 +45,21 @@ body {
   border-bottom-right-radius: 0;
 }
 
+#scoreBoard {
+  background-color: #2e282a;
+  color: #FAD8D6;
+  width: 255px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  border-color: #FAD8D6;
+  border-width: 5px;
+  border-style: solid;
+  border-top: 0px;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  position: relative;
+  bottom: 5px;
+  right: 215px;
+}
