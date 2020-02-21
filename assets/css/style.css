@@ -12,7 +12,7 @@ body {
 
 #title {
   background-color: #2e282a;
-  color: #FAD8D6;
+  color: #EDB88B;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -22,7 +22,7 @@ body {
   border-color: #FAD8D6;
   border-width: 5px;
   border-style: solid;
-  border-radius: 20px;
+  border-radius: 10px;
   border-bottom: none;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -40,47 +40,80 @@ body {
   border-color: #FAD8D6;
   border-width: 5px;
   border-style: solid;
-  border-radius: 20px;
-  border-bottom-left-radius: 0;
+  border-radius: 10px;
   border-bottom-right-radius: 0;
 }
 
 #scoreBoard {
   background-color: #2e282a;
   color: #FAD8D6;
-  width: 685px;
+  text-align: right;
+  width: 225px;
   padding: 5px;
   margin: auto;
   border-color: #FAD8D6;
   border-width: 5px;
   border-style: solid;
   border-top: 0px;
-  border-radius: 20px;
+  border-radius: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   position: relative;
   bottom: 5px;
+  left: 230px;
 }
 
 #targetScore{
+  color: #EDB88B;
   position: relative;
-  left: 15px;
+  right: 25px;
 }
 
 #userScore {
-  position: absolute;
-  left: 200px;
-  bottom:5px;
+  color: #EDB88B;
+  position: relative;
+  right: 25px;
 }
 
 #winScore{
-  position: absolute;
-  left: 375px;
-  bottom:5px;
+  color: #EDB88B;
+  position: relative;
+  right: 25px;
 }
 
 #lossScore{
-  position: absolute;
-  left: 500px;
-  bottom:5px;
+  color: #EDB88B;
+  position: relative;
+  right: 25px;
+}
+
+#crystalButtons{
+  position: relative;
+  left:235px;
+  bottom:135px;
+  background-color: #2e282a;
+  width:411px;
+  height:110px;
+  border-color: #FAD8D6;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#greenButton{
+  position: relative;
+  left:100px;
+  bottom: 100px;
+}
+
+#purpleButton{
+  position: relative;
+  left:200px;
+  bottom: 200px;
+}
+
+#redButton{
+  position: relative;
+  left:300px;
+  bottom: 300px;
 }
