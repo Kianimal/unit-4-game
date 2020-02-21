@@ -30,3 +30,18 @@ body {
   top: 5px;
 }
 
+#rules {
+  background-color: #2e282a;
+  color: #FAD8D6;
+  width: 685px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 0px;
+  border-color: #FAD8D6;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
