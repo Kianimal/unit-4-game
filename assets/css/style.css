@@ -48,9 +48,8 @@ body {
 #scoreBoard {
   background-color: #2e282a;
   color: #FAD8D6;
-  width: 255px;
+  width: 685px;
   padding: 5px;
-  text-align: center;
   margin: auto;
   border-color: #FAD8D6;
   border-width: 5px;
@@ -61,5 +60,27 @@ body {
   border-top-right-radius: 0;
   position: relative;
   bottom: 5px;
-  right: 215px;
+}
+
+#targetScore{
+  position: relative;
+  left: 15px;
+}
+
+#userScore {
+  position: absolute;
+  left: 200px;
+  bottom:5px;
+}
+
+#winScore{
+  position: absolute;
+  left: 375px;
+  bottom:5px;
+}
+
+#lossScore{
+  position: absolute;
+  left: 500px;
+  bottom:5px;
 }
