@@ -11,7 +11,7 @@ body {
 }
 
 #title {
-  background-color: #2e282a;
+  background-color: rgb(192, 131, 78);
   color: #CD5334;
   margin-left: auto;
   margin-right: auto;
@@ -29,7 +29,7 @@ body {
 }
 
 #rules {
-  background-color: #2e282a;
+  background-color: #2E282A;
   color: #17BEBB;
   margin-left: auto;
   margin-right: auto;
@@ -45,7 +45,7 @@ body {
 }
 
 #scoreBoard {
-  background-color: #2e282a;
+  background-color: rgb(192, 131, 78);
   color: #CD5334;
   text-align: center;
   padding: 5px;
@@ -60,50 +60,49 @@ body {
   top: 50px;
 }
 
+#crystalButtons {
+  position: relative;
+  top: 75px;
+  margin: auto;
+}
+
 #blueButton{
   width:100px;
   height:100px;
+  margin: auto;
   border-color: #17BEBB;
-  border-width: 5px;
+  border-width: 10px;
   border-style: solid;
   border-radius: 10px;
-  position: relative;
-  left:20px;
-  top: 75px;
 }
 
 #greenButton{
   width:100px;
   height:100px;
-  border-color: #17BEBB;
-  border-width: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: rgb(37, 190, 23);
+  border-width: 10px;
   border-style: solid;
   border-radius: 10px;
-  position: relative;
-  left:120px;
-  top: 75px;
 }
 
 #purpleButton{
   width:100px;
   height:100px;
-  border-color: #17BEBB;
-  border-width: 5px;
+  margin: auto;
+  border-color: rgb(118, 6, 192);
+  border-width: 10px;
   border-style: solid;
   border-radius: 10px;
-  position: relative;
-  left:220px;
-  top: 75px;
 }
 
 #redButton{
   width:100px;
   height:100px;
-  border-color: #17BEBB;
-  border-width: 5px;
+  margin: auto;
+  border-color: rgb(223, 9, 9);
+  border-width: 10px;
   border-style: solid;
   border-radius: 10px;
-  position: relative;
-  left:320px;
-  top: 75px;
 }
