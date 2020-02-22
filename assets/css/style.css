@@ -12,7 +12,7 @@ body {
 
 #title {
   background-color: rgb(192, 131, 78);
-  color: #CD5334;
+  color: #2E282A;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -28,9 +28,12 @@ body {
   top: 5px;
 }
 
+h3{
+  color: #17BEBB;
+}
 #rules {
   background-color: #2E282A;
-  color: #17BEBB;
+  color: #CD5334;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 20px 0px;
@@ -46,7 +49,7 @@ body {
 
 #scoreBoard {
   background-color: rgb(192, 131, 78);
-  color: #CD5334;
+  color: #2E282A;
   text-align: center;
   padding: 5px;
   margin: auto;
