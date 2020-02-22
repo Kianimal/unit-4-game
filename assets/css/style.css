@@ -1,25 +1,24 @@
 html {
-  background-color: #17BEBB;
+  background-color: #2E282A;
 }
 
 body {
-  background-color: #17BEBB !important;
+  background-color: #2E282A !important;
 }
 
 .container {
-  background-color: #17BEBB !important;
+  background-color: #2E282A !important;
 }
 
 #title {
   background-color: #2e282a;
-  color: #EDB88B;
-  width: 400px;
+  color: #CD5334;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   padding: 20px;
   text-align: center;
-  border-color: #FAD8D6;
+  border-color: #EDB88B;
   border-width: 5px;
   border-style: solid;
   border-radius: 10px;
@@ -32,12 +31,11 @@ body {
 
 #rules {
   background-color: #2e282a;
-  color: #FAD8D6;
-  width: 685px;
+  color: #17BEBB;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 20px 0px;
-  border-color: #FAD8D6;
+  border-color: #EDB88B;
   border-width: 5px;
   border-style: solid;
   border-radius: 10px;
@@ -48,10 +46,9 @@ body {
   background-color: #2e282a;
   color: #FAD8D6;
   text-align: right;
-  width: 225px;
   padding: 5px;
   margin: auto;
-  border-color: #FAD8D6;
+  border-color: #EDB88B;
   border-width: 5px;
   border-style: solid;
   border-top: 0px;
@@ -60,60 +57,76 @@ body {
   border-top-right-radius: 0;
   position: relative;
   bottom: 5px;
-  left: 230px;
 }
 
 #targetScore{
-  color: #EDB88B;
+  color: #CD5334;
   position: relative;
   right: 25px;
 }
 
 #userScore {
-  color: #EDB88B;
+  color: #CD5334;
   position: relative;
   right: 25px;
 }
 
 #winScore{
-  color: #EDB88B;
+  color: #CD5334;
   position: relative;
   right: 25px;
 }
 
 #lossScore{
-  color: #EDB88B;
+  color: #CD5334;
   position: relative;
   right: 25px;
 }
 
-#crystalButtons{
-  position: relative;
-  left:235px;
-  bottom:135px;
-  background-color: #2e282a;
-  width:411px;
-  height:110px;
-  border-color: #FAD8D6;
+#blueButton{
+  width:100px;
+  height:100px;
+  border-color: #17BEBB;
   border-width: 5px;
   border-style: solid;
   border-radius: 10px;
+  position: relative;
+  left:20px;
+  bottom: 125px;
 }
 
 #greenButton{
+  width:100px;
+  height:100px;
+  border-color: #17BEBB;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
   position: relative;
-  left:100px;
-  bottom: 100px;
+  left:120px;
+  bottom: 125px;
 }
 
 #purpleButton{
+  width:100px;
+  height:100px;
+  border-color: #17BEBB;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
   position: relative;
-  left:200px;
-  bottom: 200px;
+  left:220px;
+  bottom: 125px;
 }
 
 #redButton{
+  width:100px;
+  height:100px;
+  border-color: #17BEBB;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
   position: relative;
-  left:300px;
-  bottom: 300px;
+  left:320px;
+  bottom: 125px;
 }
