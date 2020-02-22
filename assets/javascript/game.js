@@ -10,6 +10,9 @@ var wins = document.getElementById("winNum");
 var lossVal = 0;
 var loss = document.getElementById("lossNum");
 
+crystalValSet();
+targetScoreSet();
+
 function targetScoreSet(){
     targetScoreVal = Math.floor(Math.random()* (120-19)) + 19;
     targetScore.textContent = targetScoreVal;
@@ -46,9 +49,6 @@ function checkScore(){
     }
 }
 
-crystalValSet();
-targetScoreSet();
-
 $("#blueButton").on("click", function() {
     scoreVal += blueVal;
     score.textContent = scoreVal;
@@ -72,5 +72,3 @@ $("#redButton").on("click", function() {
     score.textContent = scoreVal;
     checkScore();
 });
-
-var script = document.createElement('script');

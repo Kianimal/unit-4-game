@@ -67,6 +67,7 @@ h3{
   position: relative;
   top: 75px;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 #blueButton{
@@ -74,7 +75,7 @@ h3{
   height:99%;
   margin: auto;
   border-color: #17BEBB;
-  border-width: 10px;
+  border-width: 2px;
   border-style: solid;
   border-radius: 10px;
 }
@@ -85,7 +86,7 @@ h3{
   margin-left: auto;
   margin-right: auto;
   border-color: rgb(37, 190, 23);
-  border-width: 10px;
+  border-width: 2px;
   border-style: solid;
   border-radius: 10px;
 }
@@ -94,8 +95,8 @@ h3{
   width:99%;
   height:99%;
   margin: auto;
-  border-color: rgb(118, 6, 192);
-  border-width: 10px;
+  border-color: rgb(176, 58, 255);
+  border-width: 2px;
   border-style: solid;
   border-radius: 10px;
 }
@@ -105,7 +106,7 @@ h3{
   height:99%;
   margin: auto;
   border-color: rgb(223, 9, 9);
-  border-width: 10px;
+  border-width: 2px;
   border-style: solid;
   border-radius: 10px;
 }
