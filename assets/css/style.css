@@ -1,24 +1,24 @@
 html {
-  background-color: #2E282A;
+  background-color: #747572;
 }
 
 body {
-  background-color: #2E282A !important;
+  background-color: #747572 !important;
 }
 
 .container {
-  background-color: #2E282A !important;
+  background-color: #747572 !important;
 }
 
 #title {
-  background-color: rgb(192, 131, 78);
-  color: #2E282A;
+  background-color: #E5EBEA;
+  color: #17BEBB;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   padding: 20px;
   text-align: center;
-  border-color: #EDB88B;
+  border-color: #DBD9DB;
   border-width: 5px;
   border-style: solid;
   border-radius: 10px;
@@ -32,12 +32,12 @@ h3{
   color: #17BEBB;
 }
 #rules {
-  background-color: #2E282A;
+  background-color: #E5EBEA;
   color: #CD5334;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 20px 0px;
-  border-color: #EDB88B;
+  border-color: #DBD9DB;
   border-width: 5px;
   border-style: solid;
   border-radius: 10px;
@@ -48,12 +48,12 @@ h3{
 }
 
 #scoreBoard {
-  background-color: rgb(192, 131, 78);
-  color: #2E282A;
+  background-color: #E5EBEA;
+  color: #17BEBB;
   text-align: center;
   padding: 5px;
   margin: auto;
-  border-color: #EDB88B;
+  border-color: #DBD9DB;
   border-width: 5px;
   border-style: solid;
   border-radius: 10px;
