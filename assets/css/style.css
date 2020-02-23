@@ -71,9 +71,12 @@ h3{
 }
 
 #blueButton{
-  width:99%;
-  height:99%;
+  display:block;
   margin: auto;
+
+  width:65%;
+  height:auto;
+  margin-left: auto;
   border-color: #17BEBB;
   border-width: 2px;
   border-style: solid;
@@ -81,10 +84,11 @@ h3{
 }
 
 #greenButton{
-  width:99%;
-  height:99%;
-  margin-left: auto;
-  margin-right: auto;
+  display:block;
+  margin: auto;
+
+  width:65%;
+  height:auto;
   border-color: rgb(37, 190, 23);
   border-width: 2px;
   border-style: solid;
@@ -92,9 +96,11 @@ h3{
 }
 
 #purpleButton{
-  width:99%;
-  height:99%;
+  display:block;
   margin: auto;
+
+  width:65%;
+  height:auto;
   border-color: rgb(176, 58, 255);
   border-width: 2px;
   border-style: solid;
@@ -102,9 +108,11 @@ h3{
 }
 
 #redButton{
-  width:99%;
-  height:99%;
+  display:block;
   margin: auto;
+
+  width:65%;
+  height:auto;
   border-color: rgb(223, 9, 9);
   border-width: 2px;
   border-style: solid;
