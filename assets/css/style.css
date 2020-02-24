@@ -1,13 +1,11 @@
-html {
-  background-color: #747572;
-}
-
 body {
-  background-color: #747572 !important;
+  background-image: url("../images/bg.jpg") !important;
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
 }
 
 .container {
-  background-color: #747572 !important;
+  background-color: transparent !important;
 }
 
 #title {
